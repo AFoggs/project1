@@ -193,9 +193,14 @@ html {
   background-color: #404040;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125em; /* 18px @ 16px */
-  line-height: 1.222em; /* 22px = 1 gridline*/
+  line-height: 1.375em; /* 22px = 1 gridline*/
   max-width: 100%;
   background: #62529D;
+}
+
+h1 {
+  font-size: 1.375em; /*22px @ 16px */
+  line-height: 1.375em; /* 22px = 1 gridline*/
 }
 
 div {
