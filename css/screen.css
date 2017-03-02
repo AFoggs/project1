@@ -200,7 +200,12 @@ html {
 
 h1 {
   font-size: 1.375em; /*22px @ 16px */
-  line-height: 1.375em; /* 22px = 1 gridline*/
+  line-height: 2.75em; /* 44px = 2 gridline*/
+}
+
+
+p {
+  padding-bottom: 1.222em; /* 22px */
 }
 
 div {
@@ -208,9 +213,6 @@ div {
     overflow-y: scroll;
 }
 
-p {
-  padding-bottom: 1.222em; /* 22px */
-}
 
 /* Responsive Media */
 img, audio, video {
