@@ -234,17 +234,13 @@ video {
 /* ===== LAYOUT STYLES =====*/
 
 #submit {
-  margin: 1.375em; /* 22px = 1 gridline*/
+  margin: 1.375em; /* 22px @ 16px*/
 }
 
 
 #name, #email, #number {
-  margin: 0.6875em; /* 11px = 0.5 gridline*/
+  margin: 0.6875em; /* 11px @ 16px*/
 }
-
-
-
-
 
 
 /* ===== MODULAR STYLES ===== */
@@ -253,5 +249,8 @@ video {
   text-transform: uppercase;
 }
 
+#footer{
+  font-size: 0.5em; /* 8px @ 16px*/
+}
 
 /* ===== STATE STYLES ===== */
