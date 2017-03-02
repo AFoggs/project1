@@ -195,8 +195,7 @@ html {
   font-size: 1.125em; /* 18px @ 16px */
   line-height: 1.222em; /* 22px = 1 gridline*/
   max-width: 100%;
-  background: url(/background/vitality.jpg);
-  background-repeat: repeat;
+  background: #62529D;
 }
 
 div {
