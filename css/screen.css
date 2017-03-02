@@ -190,13 +190,15 @@ http://www.modularscale.com/?18&px&1.2&web&text
 html {
   /* 22px = 1 gridline*/
   color:	#C0C0C0;
-  background-color: #404040;
+  background: #62529D;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125em; /* 18px @ 16px */
   line-height: 1.375em; /* 22px = 1 gridline*/
   max-width: 100%;
-  background: #62529D;
+  /*Colors (circle, #62529D, #A390EC) #404040;*/
 }
+
+
 
 h1 {
   font-size: 1.1em; /*22px @ 16px */
