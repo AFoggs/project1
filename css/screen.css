@@ -203,6 +203,9 @@ h1 {
   line-height: 2.75em; /* 44px = 2 gridline*/
 }
 
+form {
+  line-height: 1.375em; /* 22px = 2 gridline*/
+}
 
 p {
   padding-bottom: 1.222em; /* 22px */
@@ -212,7 +215,6 @@ div {
     overflow-x: hidden;
     overflow-y: scroll;
 }
-
 
 /* Responsive Media */
 img, audio, video {
