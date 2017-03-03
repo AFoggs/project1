@@ -1,17 +1,28 @@
-// Tell jQuery to give up the dollar sign
+//Tell jQuery to give up the dollar sign
 $.noConflict();
 
-// jQuery 3.x-style ready event and locally scoped $
-jQuery(function($) {
+//jQuery 3.x-style ready event and locally scoped $
+jQuery(function($){
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
-  $('#form').on('submit', function(e) {
-   e.preventDefault();
-   alerUser(userName);
- });
 
-  function alertUser(){
+  $('#email').on('keyup focus blur', function(){
+    var currentValue = $(this).val();
+    var vaildPattern = $(this).attr('pattern');
+    if(currentValue.match(vaildPattern)){
+      $('#submit').addClass('active');
+    }
+    else{
+      $('#submit').removeClass('active');
+    }
+  });
+  function clearForm() {
+  $('.form')[0].reset();
+}
+  $('.form').submit(function(event) {
     alert('Thank you! Your response has been recorded!');
-     e.preventDefault();
- }
+    event.preventDefault();
+
+    clearForm();
+  });
 });
