@@ -17,10 +17,10 @@ jQuery(function($){
     }
   });
   function clearForm() {
-  $('.form')[0].reset();
-}
+    $('.form')[0].reset();
+  }
   $('.form').submit(function(event) {
-    alert('Thank you! Your response has been recorded!');
+    alert('Thank you for joining the Modern World! You will be kept up to date with our movements.');
     event.preventDefault();
 
     clearForm();
