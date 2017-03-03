@@ -190,7 +190,7 @@ http://www.modularscale.com/?18&px&1.2&web&text
 html {
   /* 22px = 1 gridline*/
   color:	#C0C0C0;
-  background: #62529D; 
+  background: #62529D;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125em; /* 18px @ 16px */
   line-height: 1.375em; /* 22px = 1 gridline*/
@@ -205,13 +205,6 @@ h1 {
   line-height: 2.75em; /* 44px = 2 gridline*/
 }
 
-form {
-  line-height: 1.375em; /* 22px = 1 gridline*/
-  display: inline-block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 p {
   padding-bottom: 1.375em; /* 22px = 1 gridline*/
@@ -222,12 +215,46 @@ div {
     overflow-y: scroll;
 }
 
+footer{
+  font-size: 0.5em; /* 8px @ 16px*/
+}
+
+
 /* Responsive Media */
 img,
 audio,
 video {
   display: block;
   max-width: 100%;
+}
+
+/* Form */
+label,
+input,
+form {
+  line-height: 1.375em; /* 22px = 1 gridline*/
+  display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+}
+
+label[for="name"],
+label[for="email"],
+label[for="number"] {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"], {
+  height: 1.375em; /* 22px @ 16px */
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  height: 2.0625em; /* 22px @ 16x */
 }
 
 
@@ -249,8 +276,9 @@ video {
   text-transform: uppercase;
 }
 
-#footer{
-  font-size: 0.5em; /* 8px @ 16px*/
+
+#submit:hover {
+  background-color: #A9A9A9;
 }
 
 /* ===== STATE STYLES ===== */
