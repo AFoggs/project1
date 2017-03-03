@@ -308,5 +308,22 @@ input[type="submit"] {
 
 @media screen and (min-width: 46.875em) {
 
+  .form {
+    display: block;
+    border: 0.125em; /*2px/16px*/
+    background-color: #A390EC;
+    border-radius: 0.125em; /*2px/16px*/
+    padding-top: auto;
+    float: left;
+  }
+
+  p {
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: auto;
+    margin-left:21.306875em;
+  }
+
+}
 
 @media screen and (min-width: 1200px) {
