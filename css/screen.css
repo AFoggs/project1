@@ -191,7 +191,7 @@ html {
   /* 22px = 1 gridline*/
   color: white;
   background: #62529D;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
   font-size: 1.125em; /* 18px @ 16px */
   line-height: 1.375em; /* 22px = 1 gridline*/
   max-width: 100%;
@@ -358,7 +358,7 @@ input[type="submit"] {
     /* 22px = 1 gridline*/
     color: white;
     background: #62529D;
-    font-family: "PT Sans Narrow", sans-serif;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
     font-size: 1.125em; /* 18px @ 16px */
     line-height: 1.375em; /* 22px = 1 gridline*/
     max-width: 100%;
