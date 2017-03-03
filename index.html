@@ -15,17 +15,17 @@
         <ol>
           <li>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" placeholder="Durzo Blint"/>
+            <input type="text" name="name" id="name" placeholder="Durzo Blint" pattern="^.+$"/>
           </li>
 
           <li>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Durzo@blint.net"/>
+            <input type="email" name="email" id="email" placeholder="Durzo@blint.net" pattern="^.+@.+$"/>
           </li>
 
           <li>
             <label for="number">Number:</label>
-            <input type="tel" name="number" id="number" placeholder="(123)-456-7890"/>
+            <input type="tel" name="number" id="number" placeholder="(123)-456-7890" pattern="[\(]\d{3}[\-)]\d{3}[\-]\d{4}"/>
           </li>
 
           <li>
